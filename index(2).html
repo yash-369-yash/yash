@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=>
+    <title>YASH GANGAWANE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: linear-gradient(135deg, #e5f88d, #345e4d);
+            color: #000000;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        header {
+            background-color: linear-gradient(135deg, #988df8, #5e3456);
+            color: rgb(0, 0, 0);
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(95, 78, 78, 0.839);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #3498db;
+        }
+        header {
+            background: linear-gradient(135deg, #f8a68d, #34495e);
+            color: white;
+            padding: 150px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        #hero .btn-primary {
+            background-color: #3498db;
+            color: rgb(0, 0, 0);
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        #hero .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        #about {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #ecf0f1;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+        #projects {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #projects h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .project-cards {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .project-card {
+            background-color: white;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+        }
+
+        .project-card h3 {
+            font-size: 1.6rem;
+            padding: 20px;
+            font-weight: 500;
+        }
+
+        .project-card p {
+            padding: 0 20px 20px;
+            font-size: 1rem;
+            color: #7f898d;
+            line-height: 1.6;
+        }
+
+        .project-card .btn-secondary {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 50px;
+            margin: 20px 0;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card .btn-secondary:hover {
+            background-color: #5729b9;
+        }
+        #contact {
+            padding: 80px 20px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>YASH GANGAWANE</h1>
+                <p> Data analysis</p>
+            </div>
+            <ul>
+                <li><a href="#INFO"> INFO </a></li>
+                <li><a href="#WORKS"> WORKS </a></li>
+                <li><a href="#CONTACT"> CONTACT </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I'm a data analysis and i oftenly use languages such as c++,java and python </p>
+            <a href="#projects" class="btn-primary">View My Work</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hey, I'm a data analysis who is alway curious to know more about data structure and analysis and overall operation to perform, over a data Created an automated reporting system using Python and SQL, saving 20 hours per week in manual data processing and improving data consistency by 95% across departments.
+                Conducted A/B testing on website design elements, leading to a 12% increase in conversion rates and a 7% boost in average order value for an online retailer.
+                Collaborated with marketing team to develop a customer segmentation model using clustering algorithms, resulting in a 30% improvement in targeted campaign performance and a 22% increase in ROI.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>MY WORKS</h2>
+            <div class="project-cards">
+                <div class="project-card"> 
+                    <h3>DATA ANALYSIS</h3>
+                    <p>data analysis using python,ruby</p>
+                    <a href="#" class="btn-secondary">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>DATA STRUCTURING</h3>
+                    <p>data structuring using sql</p>
+                    <a href="#" class="btn-secondary">View Project</a>
+                    
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact.html">
+        <h1>contact</h1>
+        <h4>yashgangawane@gmail.com</h4>
